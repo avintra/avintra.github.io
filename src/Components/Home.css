@@ -1,0 +1,87 @@
+.container {
+    background-color: #D1D0F6;
+   
+
+
+}
+.title {
+    padding: 10px;
+    margin: 30px;
+    width: 1000px;
+    margin-top: 87px;
+    font-family: 'Bree Serif', serif;
+    /* background-color: aqua; */
+} 
+.image {
+    width: 600px;
+    height: 459px;
+    margin: 10px;
+    padding: 10px;
+    margin-top:-13cm;
+    margin-left: 19cm;
+}
+.subtitle{
+    font-size: 22px;
+    font-weight: 200;
+    color: #69697C;
+    margin-top: 30px;
+
+}
+.button{
+    /* padding: 10px; */
+    display:flex;
+    margin-top: 17px;
+    gap:10px;
+    
+}
+.btn-outline-danger{
+  border-color: red;
+  color: red;
+  border-width: 2px;
+}
+.btn-outline-primary:hover {
+    background-color: red;
+    color: white;
+    border-color: red;
+  }
+
+  .btn-outline-secondary{
+    border-color: black;
+    color: black;
+    border-width: 2px;
+  }
+  .btn-outline-secondary:hover {
+      background-color: black;
+      color: white;
+      border-color: black;
+    }
+    .sideimage {
+    /* width: 100px;
+    height: 100px; */
+     /* margin: 10px; */
+    /* padding: 10px; */
+    /* margin-top: 90px;  */
+
+    }
+    .sideimage1{
+      float:left;
+     margin-right:10cm;
+     margin-top: 0cm;
+     margin-top: -13cm;
+     margin-left: 18cm;
+     width: 159px;
+    
+     
+      
+    }
+    .sideimage2{
+      width: 159px;
+      margin-top: -23cm;
+      margin-left: 33cm;
+    }
+    .sideimage3{
+margin-left: 25cm;
+margin-top: -3cm;
+width: 160px;
+      
+    }

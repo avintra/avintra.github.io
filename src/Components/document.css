@@ -1,0 +1,23 @@
+body {
+    background-color: #D1D0F6;
+}
+
+.documentation {
+    background-color: white;
+    border: 3px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.content {
+    padding: 15px;
+}
+
+.heading{
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.code {
+    font-family: 'Roboto Mono', monospace;
+}
