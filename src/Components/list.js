@@ -11,7 +11,7 @@ const List = () => {
             accept: 'application/json'  
         },  
     };
-    fetch('http://127.0.0.1:8000/api/bot/list/', requestOptions)
+    fetch('https://api-avintra.azurewebsites.net/api/bot/list/', requestOptions)
         .then(async response => {
             const isJson = response.headers.get('content-type')?.includes('application/json');
             const data = isJson && await response.json();

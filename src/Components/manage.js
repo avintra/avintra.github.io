@@ -14,7 +14,7 @@ const Manage = () => {
                 accept: 'application/json'  
             }
         };
-        fetch('http://127.0.0.1:8000/api/bot/manage/?bid=18', requestOptions)
+        fetch('https://api-avintra.azurewebsites.net/api/bot/manage/?bid=18', requestOptions)
         .then(async response => {
             const isJson = response.headers.get('content-type')?.includes('application/json');
             const data = isJson && await response.json();

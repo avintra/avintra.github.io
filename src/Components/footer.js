@@ -18,7 +18,7 @@ export default function Footer(){
     console.log(email)
     axios({
   method: "post",
-  url: "http://127.0.0.1:8000/api/offer/invite_email/",
+  url: "https://api-avintra.azurewebsites.net/api/offer/invite_email/",
   data: {"invited_email":email},
   headers: { 'Content-Type' : 'application/json; charset=UTF-8',
         accept: 'application/json'  },

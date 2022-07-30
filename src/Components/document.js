@@ -12,7 +12,7 @@ export default function Document() {
     const scriptt = '<script>'
     const bodyt = '<body>'
     const element = '<avintra></avintra>'
-    const js = '<script src="http://127.0.0.1:8000/jsFiles/app18.js"></script>'
+    const js = '<script src="https://api-avintra.azurewebsites.net/jsFiles/app18.js"></script>'
     return (
         <div className="body">
 

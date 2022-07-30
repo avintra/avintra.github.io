@@ -11,7 +11,7 @@ const Profile = () => {
             accept: 'application/json'  
         },  
     };
-    fetch('http://127.0.0.1:8000/api/user/profile/', requestOptions)
+    fetch('https://api-avintra.azurewebsites.net/api/user/profile/', requestOptions)
         .then(async response => {
             const isJson = response.headers.get('content-type')?.includes('application/json');
             const data = isJson && await response.json();
